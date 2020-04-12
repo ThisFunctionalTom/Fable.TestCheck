@@ -1,0 +1,6 @@
+node_modules/
+tests-js/
+dist/
+.ionide/
+bin/
+obj/

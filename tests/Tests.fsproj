@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="TestCheckDt.fs" />
+    <Compile Include="TestCheck.fs" />
+    <Compile Include="Tests.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.Mocha" Version="2.8.0" />
+    <PackageReference Include="Fable.SimpleJson" Version="3.8.2" />
+  </ItemGroup>
+</Project>
